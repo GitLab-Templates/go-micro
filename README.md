@@ -40,5 +40,5 @@ go run main.go
 ## Query Service
 
 ```
-micro query greeter Greeter.Hello '{"name": "John"}'
+micro call greeter Greeter.Hello '{"name": "John"}'
 ```
