@@ -1,8 +1,25 @@
-# Hello World
+# Introduction
 
-This is hello world using micro
+This is a template for doing go-micro development using GitLab. It's based on the
+[helloworld](https://github.com/micro/examples/tree/master/helloworld) Go Micro
+template.
 
-## Contents
+# Reference links
+
+- [GitLab CI Documentation](https://docs.gitlab.com/ee/ci/)
+- [Go Micro Overview](https://micro.mu/docs/go-micro.html)
+- [Go Micro Toolkit](https://micro.mu/docs/go-micro.html)
+
+# Getting started
+
+First thing to do is update `main.go` with your new project path:
+
+```go
+	proto "gitlab.com/gitlab-org/project-templates/go-micro/proto"
+	"gitlab.com/gitlab-org/project-templates/go-micro"
+```
+
+## What's contained in this project
 
 - main.go - is the main definition of the service, handler and client
 - proto - contains the protobuf definition of the API
