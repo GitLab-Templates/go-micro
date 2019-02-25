@@ -5,7 +5,6 @@ import (
 	"log"
 
 	proto "gitlab.com/gitlab-org/project-templates/go-micro/proto"
-	"gitlab.com/gitlab-org/project-templates/go-micro"
 )
 
 type Greeter struct{}
