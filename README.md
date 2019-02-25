@@ -16,8 +16,11 @@ First thing to do is update `main.go` with your new project path:
 
 ```diff
 -       proto "gitlab.com/gitlab-org/project-templates/go-micro/proto"
-+       proto "gitlab.com/$YOUR_NAMSPACE/$PROJECT_NAME/proto"
++       proto "gitlab.com/$YOUR_NAMESPACE/$PROJECT_NAME/proto"
 ```
+
+Note that these are not actual environment variables, but values you should
+replace.
 
 ## What's contained in this project
 
