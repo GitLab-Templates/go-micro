@@ -14,9 +14,9 @@ template.
 
 First thing to do is update `main.go` with your new project path:
 
-```go
-	proto "gitlab.com/gitlab-org/project-templates/go-micro/proto"
-	"gitlab.com/gitlab-org/project-templates/go-micro"
+```diff
+-       proto "gitlab.com/gitlab-org/project-templates/go-micro/proto"
++       proto "gitlab.com/$YOUR_NAMSPACE/$PROJECT_NAME/proto"
 ```
 
 ## What's contained in this project
