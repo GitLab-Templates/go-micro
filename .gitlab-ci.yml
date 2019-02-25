@@ -27,7 +27,7 @@ test:
 compile:
     stage: build
     script:
-      - protoc --proto_path=$GOPATH/src:. --micro_out=. --go_out=. $CI_PROJECT_DIR/proto/greeter.proto
+      - protoc --proto_path=$CI_PROJECT_DIR:. --micro_out=. --go_out=. $CI_PROJECT_DIR/proto/greeter.proto
       - go build -race -ldflags "-extldflags '-static'" -o $CI_PROJECT_DIR/service
     artifacts:
       paths:
